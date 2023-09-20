@@ -7,13 +7,10 @@
 </head>
 <body>
 
-<div class="navbar">
-    <a id="logo" href="#">Logo</a>
+<nav>
     <a href="#">Inscription</a>
     <a href="#">Connexion</a>
-</div>
-
-<!-- Le contenu de votre page irait ici -->
+</nav>
 
 </body>
 </html>
