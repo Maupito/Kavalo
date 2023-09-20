@@ -5,8 +5,8 @@
 		"../scss/style.scss"
 	],
 	"sourcesContent": [
-		"body {\r\n    background-color: white;\r\n}\r\n\r\n/* Style de base pour la navbar */\r\n.navbar {\r\n    background-color: #333;\r\n    overflow: hidden;\r\n}\r\n\r\n/* Style pour les éléments de la navbar */\r\n.navbar a {\r\n    float: right;\r\n    display: block;\r\n    color: white;\r\n    text-align: right; /* Alignement du texte à droite */\r\n    padding: 14px 16px;\r\n    text-decoration: none;\r\n}\r\n\r\n/* Style pour le logo */\r\n.navbar #logo {\r\n    float: left;\r\n}"
+		"nav {\r\n    position: sticky;\r\n    display: flex;\r\n  \r\n    .logo {\r\n      font-size: 5vw; // Taille du texte du logo\r\n    }\r\n      a {\r\n        text-align: right;\r\n        font-size: 5vw;\r\n        right: 0;\r\n        text-decoration: none;\r\n        color: white; // Couleur du texte des liens\r\n      }\r\n    }\r\n  "
 	],
 	"names": [],
-	"mappings": ";;AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,KAAK;CAC1B;;AAED,kCAAkC;;AAClC,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,QAAQ,EAAE,MAAM;CACnB;;AAED,0CAA0C;;AAC1C,AAAA,OAAO,CAAC,CAAC,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;EAAE,kCAAkC;EACrD,OAAO,EAAE,SAAS;EAClB,eAAe,EAAE,IAAI;CACxB;;AAED,wBAAwB;;AACxB,AAAA,OAAO,CAAC,KAAK,CAAC;EACV,KAAK,EAAE,IAAI;CACd"
+	"mappings": ";AAAA,AAAA,GAAG,CAAC;EACA,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,IAAI;CAYZ;;;AAdL,AAII,GAJD,CAIC,KAAK,CAAC;EACJ,SAAS,EAAE,GAAG;CACf;;;AANL,AAOM,GAPH,CAOG,CAAC,CAAC;EACA,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,GAAG;EACd,KAAK,EAAE,CAAC;EACR,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CACb"
 }

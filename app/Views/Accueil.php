@@ -8,9 +8,12 @@
 <body>
 
 <nav>
-    <a href="<?= base_url('register') ?>">Inscription</a>
-    <a href="<?= base_url('login') ?>">Connexion</a>
+    <span>logo</span>
+    <a href="#">Inscription</a>
+    <a href="#">Connexion</a>
 </nav>
+
+<!-- Le contenu de votre page irait ici -->
 
 </body>
 </html>
