@@ -1,0 +1,9 @@
+CRITICAL - 2023-08-10 08:51:05 --> password_verify() expects exactly 2 parameters, 1 given
+in APPPATH/Controllers/LogController.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/LogController.php(70): password_verify()
+ 3 APPPATH/Controllers/LogController.php(54): App\Controllers\LogController->processLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\LogController->login()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

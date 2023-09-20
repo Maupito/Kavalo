@@ -1,0 +1,29 @@
+CRITICAL - 2023-07-25 07:38:27 --> Class 'App\Controllers\BaseController' not found
+in APPPATH/Controllers/Home.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 09:58:48 --> Too few arguments to function App\Controllers\Voiture::edit(), 0 passed in /home/symfony.pymac.fr/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/Voiture.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Voiture->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 09:59:26 --> Too few arguments to function App\Controllers\Voiture::edit(), 0 passed in /home/symfony.pymac.fr/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/Voiture.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Voiture->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-25 12:03:11 --> Too few arguments to function App\Controllers\Voiture::edit(), 0 passed in /home/symfony.pymac.fr/web/codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH/Controllers/Voiture.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Voiture->edit()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

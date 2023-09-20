@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voitures>
+  <voiture>
+    <reference>ABC123</reference>
+    <marque>Audi</marque>
+    <modele>A4</modele>
+    <annee>2018</annee>
+    <kilometrage>50000</kilometrage>
+    <carburant>Essence</carburant>
+    <transmission>Automatique</transmission>
+    <puissance>150</puissance>
+    <prix>25000</prix>
+    <prix_d_origine>30000</prix_d_origine>
+    <couleur>Blanc</couleur>
+    <description>Superbe Audi A4 en excellent état. Faible kilometrage et entretien régulier. Puissance de 150 chevaux et transmission automatique. Disponible immédiatement.</description>
+    <equipements>
+      <equipement>ABS</equipement>
+      <equipement>Airbags</equipement>
+      <equipement>Climatisation</equipement>
+      <equipement>GPS</equipement>
+      <equipement>Régulateur de vitesse</equipement>
+      <equipement>Caméra de recul</equipement>
+    </equipements>
+    <photos>
+      <photo>http://exemple.com/photo1.jpg</photo>
+      <photo>http://exemple.com/photo2.jpg</photo>
+      <photo>https://www.example.com/photos/audi_a4_exterior_1.jpg</photo>
+      <photo>https://www.example.com/photos/audi_a4_exterior_2.jpg</photo>
+    </photos>
+  </voiture>
+  <voiture>
+    <reference>XYZ789</reference>
+    <marque>BMW</marque>
+    <modele>Serie 3</modele>
+    <annee>2017</annee>
+    <kilometrage>60000</kilometrage>
+    <carburant>Diesel</carburant>
+    <transmission>Manuelle</transmission>
+    <puissance>190</puissance>
+    <prix>22000</prix>
+    <prix_d_origine>28000</prix_d_origine>
+    <couleur>Noir</couleur>
+    <description>Belle BMW Serie 3 en bon état général. kilometrage moyen et entretien suivi. Puissance de 190 chevaux et transmission manuelle. Disponible dans deux semaines.</description>
+    <equipements>
+      <equipement>ABS</equipement>
+      <equipement>Airbags</equipement>
+      <equipement>Climatisation</equipement>
+      <equipement>Bluetooth</equipement>
+      <equipement>Jantes en alliage</equipement>
+      <equipement>Toit ouvrant</equipement>
+      <equipement>Système audio haut de gamme</equipement>
+    </equipements>
+    <photos>
+      <photo>http://exemple.com/photo3.jpg</photo>
+      <photo>http://exemple.com/photo4.jpg</photo>
+      <photo>https://www.example.com/photos/bmw_serie3_exterior_1.jpg</photo>
+      <photo>https://www.example.com/photos/bmw_serie3_exterior_2.jpg</photo>
+    </photos>
+  </voiture>
+  
+  <!-- Ajoutez ici les autres véhicules -->
+  <voiture>
+    <reference>DEF456</reference>
+    <marque>Mercedes-Benz</marque>
+    <modele>Classe C</modele>
+    <annee>2019</annee>
+    <kilometrage>40000</kilometrage>
+    <carburant>Essence</carburant>
+    <transmission>Automatique</transmission>
+    <puissance>170</puissance>
+    <prix>28000</prix>
+    <prix_d_origine>35000</prix_d_origine>
+    <couleur>Argent</couleur>
+    <description>Superbe Mercedes-Benz Classe C en excellent état. Faible kilometrage et entretien régulier. Puissance de 170 chevaux et transmission automatique. Disponible immédiatement.</description>
+    <equipements>
+      <equipement>ABS</equipement>
+      <equipement>Airbags</equipement>
+      <equipement>Climatisation</equipement>
+      <equipement>GPS</equipement>
+      <equipement>Régulateur de vitesse</equipement>
+      <equipement>Toit panoramique</equipement>
+    </equipements>
+    <photos>
+      <photo>http://exemple.com/photo5.jpg</photo>
+      <photo>http://exemple.com/photo6.jpg</photo>
+      <photo>https://www.example.com/photos/mercedes_classe_c_exterior_1.jpg</photo>
+      <photo>https://www.example.com/photos/mercedes_classe_c_exterior_2.jpg</photo>
+    </photos>
+  </voiture>
+<voiture>
+  <reference>GHI789</reference>
+  <marque>Toyota</marque>
+  <modele>Corolla</modele>
+  <annee>2020</annee>
+  <kilometrage>30000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>122</puissance>
+  <prix>21000</prix>
+  <prix_d_origine>26000</prix_d_origine>
+  <couleur>Gris</couleur>
+  <description>Toyota Corolla hybride en bon état. Faible kilométrage et entretien suivi. Puissance de 122 chevaux et transmission automatique. Disponible dans un mois.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Caméra de recul</equipement>
+    <equipement>Régulateur de vitesse adaptatif</equipement>
+    <equipement>Écran tactile</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo7.jpg</photo>
+    <photo>http://exemple.com/photo8.jpg</photo>
+    <photo>https://www.example.com/photos/toyota_corolla_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/toyota_corolla_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>JKL012</reference>
+  <marque>Ford</marque>
+  <modele>Mustang</modele>
+  <annee>2016</annee>
+  <kilometrage>45000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Manuelle</transmission>
+  <puissance>435</puissance>
+  <prix>32000</prix>
+  <prix_d_origine>40000</prix_d_origine>
+  <couleur>Rouge</couleur>
+  <description>Superbe Ford Mustang en excellent état. Kilométrage moyen et entretien régulier. Puissance de 435 chevaux et transmission manuelle. Disponible dans trois semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Système audio haut de gamme</equipement>
+    <equipement>Toit ouvrant électrique</equipement>
+    <equipement>Sièges en cuir</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo9.jpg</photo>
+    <photo>http://exemple.com/photo10.jpg</photo>
+    <photo>https://www.example.com/photos/ford_mustang_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/ford_mustang_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>MNO345</reference>
+  <marque>Volkswagen</marque>
+  <modele>Golf</modele>
+  <annee>2019</annee>
+  <kilometrage>35000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>130</puissance>
+  <prix>18000</prix>
+  <prix_d_origine>24000</prix_d_origine>
+  <couleur>Vert</couleur>
+  <description>Belle Volkswagen Golf en bon état général. Kilométrage moyen et entretien suivi. Puissance de 130 chevaux et transmission automatique. Disponible dans quatre semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Phares LED</equipement>
+    <equipement>Régulateur de vitesse adaptatif</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo11.jpg</photo>
+    <photo>http://exemple.com/photo12.jpg</photo>
+    <photo>https://www.example.com/photos/vw_golf_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/vw_golf_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>PQR678</reference>
+  <marque>Volvo</marque>
+  <modele>XC60</modele>
+  <annee>2022</annee>
+  <kilometrage>10000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>300</puissance>
+  <prix>40000</prix>
+  <prix_d_origine>50000</prix_d_origine>
+  <couleur>Blanc</couleur>
+  <description>Luxueux Volvo XC60 hybride en excellent état. Faible kilométrage et entretien régulier. Puissance de 300 chevaux et transmission automatique. Disponible dans six semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Caméra à 360 degrés</equipement>
+    <equipement>Sièges chauffants et ventilés</equipement>
+    <equipement>Toit panoramique</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo13.jpg</photo>
+    <photo>http://exemple.com/photo14.jpg</photo>
+    <photo>https://www.example.com/photos/volvo_xc60_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/volvo_xc60_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>STU901</reference>
+  <marque>Renault</marque>
+  <modele>Clio</modele>
+  <annee>2020</annee>
+  <kilometrage>25000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>100</puissance>
+  <prix>15000</prix>
+  <prix_d_origine>20000</prix_d_origine>
+  <couleur>Jaune</couleur>
+  <description>Renault Clio automatique en bon état général. Faible kilométrage et entretien régulier. Puissance de 100 chevaux. Disponible dans trois semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Écran tactile</equipement>
+    <equipement>Feux de jour LED</equipement>
+    <equipement>Radar de recul</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo15.jpg</photo>
+    <photo>http://exemple.com/photo16.jpg</photo>
+    <photo>https://www.example.com/photos/renault_clio_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/renault_clio_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>VWX234</reference>
+  <marque>Jeep</marque>
+  <modele>Wrangler</modele>
+  <annee>2015</annee>
+  <kilometrage>80000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Manuelle</transmission>
+  <puissance>285</puissance>
+  <prix>26000</prix>
+  <prix_d_origine>30000</prix_d_origine>
+  <couleur>Orange</couleur>
+  <description>Robuste Jeep Wrangler en bon état général. Kilométrage moyen et entretien suivi. Puissance de 285 chevaux et transmission manuelle. Disponible dans cinq semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Barres de toit</equipement>
+    <equipement>Phares antibrouillard</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo17.jpg</photo>
+    <photo>http://exemple.com/photo18.jpg</photo>
+    <photo>https://www.example.com/photos/jeep_wrangler_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/jeep_wrangler_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>YZA567</reference>
+  <marque>Hyundai</marque>
+  <modele>Tucson</modele>
+  <annee>2021</annee>
+  <kilometrage>15000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>160</puissance>
+  <prix>24000</prix>
+  <prix_d_origine>28000</prix_d_origine>
+  <couleur>Argent</couleur>
+  <description>Hyundai Tucson hybride en excellent état. Faible kilométrage et entretien régulier. Puissance de 160 chevaux et transmission automatique. Disponible immédiatement.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Caméra de recul</equipement>
+    <equipement>Sièges chauffants</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo19.jpg</photo>
+    <photo>http://exemple.com/photo20.jpg</photo>
+    <photo>https://www.example.com/photos/hyundai_tucson_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/hyundai_tucson_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>BXY890</reference>
+  <marque>Peugeot</marque>
+  <modele>308</modele>
+  <annee>2019</annee>
+  <kilometrage>32000</kilometrage>
+  <carburant>Diesel</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>130</puissance>
+  <prix>18000</prix>
+  <prix_d_origine>22000</prix_d_origine>
+  <couleur>Blanc</couleur>
+  <description>Peugeot 308 en bon état général. Kilométrage moyen et entretien suivi. Puissance de 130 chevaux et transmission automatique. Disponible dans quatre semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Écran tactile</equipement>
+    <equipement>Jantes en alliage</equipement>
+    <equipement>Feux Full LED</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo21.jpg</photo>
+    <photo>http://exemple.com/photo22.jpg</photo>
+    <photo>https://www.example.com/photos/peugeot_308_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/peugeot_308_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>CDZ123</reference>
+  <marque>Subaru</marque>
+  <modele>Outback</modele>
+  <annee>2022</annee>
+  <kilometrage>10000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>182</puissance>
+  <prix>32000</prix>
+  <prix_d_origine>36000</prix_d_origine>
+  <couleur>Vert</couleur>
+  <description>Subaru Outback en excellent état. Faible kilométrage et entretien régulier. Puissance de 182 chevaux et transmission automatique. Disponible dans six semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Sièges en cuir</equipement>
+    <equipement>Toit ouvrant panoramique</equipement>
+    <equipement>Caméra de recul</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo23.jpg</photo>
+    <photo>http://exemple.com/photo24.jpg</photo>
+    <photo>https://www.example.com/photos/subaru_outback_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/subaru_outback_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>FGH456</reference>
+  <marque>Lexus</marque>
+  <modele>RX 450h</modele>
+  <annee>2020</annee>
+  <kilometrage>20000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>308</puissance>
+  <prix>45000</prix>
+  <prix_d_origine>55000</prix_d_origine>
+  <couleur>Noir</couleur>
+  <description>Lexus RX 450h en excellent état. Faible kilométrage et entretien régulier. Puissance de 308 chevaux et transmission automatique. Disponible immédiatement.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Sièges en cuir chauffants et ventilés</equipement>
+    <equipement>Système audio Mark Levinson</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo25.jpg</photo>
+    <photo>http://exemple.com/photo26.jpg</photo>
+    <photo>https://www.example.com/photos/lexus_rx450h_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/lexus_rx450h_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>IJK789</reference>
+  <marque>Mazda</marque>
+  <modele>CX-5</modele>
+  <annee>2018</annee>
+  <kilometrage>40000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>187</puissance>
+  <prix>22000</prix>
+  <prix_d_origine>26000</prix_d_origine>
+  <couleur>Argent</couleur>
+  <description>Mazda CX-5 en bon état général. Kilométrage moyen et entretien suivi. Puissance de 187 chevaux et transmission automatique. Disponible dans trois semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Caméra de recul</equipement>
+    <equipement>Sièges chauffants</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo27.jpg</photo>
+    <photo>http://exemple.com/photo28.jpg</photo>
+    <photo>https://www.example.com/photos/mazda_cx5_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/mazda_cx5_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>KLM012</reference>
+  <marque>Honda</marque>
+  <modele>CR-V</modele>
+  <annee>2021</annee>
+  <kilometrage>18000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>184</puissance>
+  <prix>31000</prix>
+  <prix_d_origine>36000</prix_d_origine>
+  <couleur>Blanc</couleur>
+  <description>Honda CR-V hybride en excellent état. Faible kilométrage et entretien régulier. Puissance de 184 chevaux et transmission automatique. Disponible dans quatre semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Toit ouvrant panoramique</equipement>
+    <equipement>Régulateur de vitesse adaptatif</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo29.jpg</photo>
+    <photo>http://exemple.com/photo30.jpg</photo>
+    <photo>https://www.example.com/photos/honda_crv_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/honda_crv_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>NOP345</reference>
+  <marque>Land Rover</marque>
+  <modele>Range Rover Evoque</modele>
+  <annee>2019</annee>
+  <kilometrage>30000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>240</puissance>
+  <prix>38000</prix>
+  <prix_d_origine>45000</prix_d_origine>
+  <couleur>Blanc</couleur>
+  <description>Land Rover Range Rover Evoque en excellent état. Faible kilométrage et entretien régulier. Puissance de 240 chevaux et transmission automatique. Disponible dans deux semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Toit panoramique</equipement>
+    <equipement>Sièges en cuir</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo31.jpg</photo>
+    <photo>http://exemple.com/photo32.jpg</photo>
+    <photo>https://www.example.com/photos/range_rover_evoque_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/range_rover_evoque_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>QRS678</reference>
+  <marque>Kia</marque>
+  <modele>Sportage</modele>
+  <annee>2020</annee>
+  <kilometrage>22000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>185</puissance>
+  <prix>25000</prix>
+  <prix_d_origine>28000</prix_d_origine>
+  <couleur>Gris</couleur>
+  <description>Kia Sportage en bon état général. Kilométrage moyen et entretien suivi. Puissance de 185 chevaux et transmission automatique. Disponible dans trois semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Caméra de recul</equipement>
+    <equipement>Régulateur de vitesse</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo33.jpg</photo>
+    <photo>http://exemple.com/photo34.jpg</photo>
+    <photo>https://www.example.com/photos/kia_sportage_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/kia_sportage_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>UVW901</reference>
+  <marque>Chrysler</marque>
+  <modele>Pacifica</modele>
+  <annee>2021</annee>
+  <kilometrage>12000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>260</puissance>
+  <prix>35000</prix>
+  <prix_d_origine>40000</prix_d_origine>
+  <couleur>Noir</couleur>
+  <description>Chrysler Pacifica hybride en excellent état. Faible kilométrage et entretien régulier. Puissance de 260 chevaux et transmission automatique. Disponible dans quatre semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Toit panoramique</equipement>
+    <equipement>Système d'infodivertissement</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo35.jpg</photo>
+    <photo>http://exemple.com/photo36.jpg</photo>
+    <photo>https://www.example.com/photos/chrysler_pacifica_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/chrysler_pacifica_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>XYZ789</reference>
+  <marque>Alfa Romeo</marque>
+  <modele>Giulia</modele>
+  <annee>2022</annee>
+  <kilometrage>8000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>280</puissance>
+  <prix>40000</prix>
+  <prix_d_origine>45000</prix_d_origine>
+  <couleur>Rouge</couleur>
+  <description>Alfa Romeo Giulia en excellent état. Faible kilométrage et entretien régulier. Puissance de 280 chevaux et transmission automatique. Disponible dans trois semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Toit ouvrant électrique</equipement>
+    <equipement>Sièges sport en cuir</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo37.jpg</photo>
+    <photo>http://exemple.com/photo38.jpg</photo>
+    <photo>https://www.example.com/photos/alfa_romeo_giulia_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/alfa_romeo_giulia_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>ABC456</reference>
+  <marque>Ford</marque>
+  <modele>Mustang</modele>
+  <annee>2020</annee>
+  <kilometrage>15000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Manuelle</transmission>
+  <puissance>450</puissance>
+  <prix>50000</prix>
+  <prix_d_origine>55000</prix_d_origine>
+  <couleur>Jaune</couleur>
+  <description>Ford Mustang en excellent état. Faible kilométrage et entretien régulier. Puissance de 450 chevaux et transmission manuelle. Disponible immédiatement.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Sièges sport en cuir</equipement>
+    <equipement>Échappement sport</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo39.jpg</photo>
+    <photo>http://exemple.com/photo40.jpg</photo>
+    <photo>https://www.example.com/photos/ford_mustang_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/ford_mustang_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>DEF890</reference>
+  <marque>Toyota</marque>
+  <modele>RAV4</modele>
+  <annee>2021</annee>
+  <kilometrage>18000</kilometrage>
+  <carburant>Hybride</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>218</puissance>
+  <prix>32000</prix>
+  <prix_d_origine>36000</prix_d_origine>
+  <couleur>Bleu</couleur>
+  <description>Toyota RAV4 hybride en excellent état. Faible kilométrage et entretien régulier. Puissance de 218 chevaux et transmission automatique. Disponible dans quatre semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>GPS</equipement>
+    <equipement>Toit panoramique</equipement>
+    <equipement>Régulateur de vitesse adaptatif</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo41.jpg</photo>
+    <photo>http://exemple.com/photo42.jpg</photo>
+    <photo>https://www.example.com/photos/toyota_rav4_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/toyota_rav4_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>GHI234</reference>
+  <marque>Volkswagen</marque>
+  <modele>Golf</modele>
+  <annee>2022</annee>
+  <kilometrage>10000</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>150</puissance>
+  <prix>27000</prix>
+  <prix_d_origine>30000</prix_d_origine>
+  <couleur>Blanc</couleur>
+  <description>Volkswagen Golf en excellent état. Faible kilométrage et entretien régulier. Puissance de 150 chevaux et transmission automatique. Disponible dans deux semaines.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation automatique</equipement>
+    <equipement>Bluetooth</equipement>
+    <equipement>Toit ouvrant</equipement>
+    <equipement>Régulateur de vitesse</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/photo43.jpg</photo>
+    <photo>http://exemple.com/photo44.jpg</photo>
+    <photo>https://www.example.com/photos/vw_golf_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/vw_golf_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+<voiture>
+  <reference>XYZ456</reference>
+  <marque>Toyota</marque>
+  <modele>Corolla</modele>
+  <annee>2023</annee>
+  <kilometrage>0</kilometrage>
+  <carburant>Essence</carburant>
+  <transmission>Automatique</transmission>
+  <puissance>130</puissance>
+  <prix>28000</prix>
+  <prix_d_origine>30000</prix_d_origine>
+  <couleur>Noir</couleur>
+  <description>Nouvelle Toyota Corolla avec kilométrage à zéro. Puissance de 130 chevaux et transmission automatique. Équipée de fonctionnalités modernes.</description>
+  <equipements>
+    <equipement>ABS</equipement>
+    <equipement>Airbags</equipement>
+    <equipement>Climatisation</equipement>
+    <equipement>Écran tactile</equipement>
+    <equipement>Caméra de recul</equipement>
+    <equipement>Connectivité Bluetooth</equipement>
+  </equipements>
+  <photos>
+    <photo>http://exemple.com/toyota_corolla_photo1.jpg</photo>
+    <photo>http://exemple.com/toyota_corolla_photo2.jpg</photo>
+    <photo>https://www.example.com/photos/corolla_exterior_1.jpg</photo>
+    <photo>https://www.example.com/photos/corolla_exterior_2.jpg</photo>
+  </photos>
+</voiture>
+
+</voitures>
