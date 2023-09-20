@@ -1,6 +1,32 @@
+@charset "UTF-8";
 /* line 1, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
 body {
   background-color: white;
+}
+
+/* Style de base pour la navbar */
+/* line 6, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style pour les éléments de la navbar */
+/* line 12, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: right;
+  /* Alignement du texte à droite */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Style pour le logo */
+/* line 22, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar #logo {
+  float: left;
 }
 
 /*# sourceMappingURL=style.css.map */

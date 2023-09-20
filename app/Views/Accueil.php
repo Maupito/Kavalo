@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Ma Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <a href=base_url()>
-        <button>
 
-        </button>
-    </a>
+<div class="navbar">
+    <a id="logo" href="#">Logo</a>
+    <a href="#">Inscription</a>
+    <a href="#">Connexion</a>
+</div>
+
+<!-- Le contenu de votre page irait ici -->
+
 </body>
 </html>
