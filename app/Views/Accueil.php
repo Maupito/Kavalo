@@ -7,5 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a href=base_url()>
+        <button>
+
+        </button>
+    </a>
 </body>
 </html>
