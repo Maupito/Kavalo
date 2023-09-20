@@ -1,21 +1,80 @@
-/* line 1, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
-nav {
-  position: sticky;
+/* line 3, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vw;
+  background-color: black;
   display: flex;
+  align-items: center;
 }
 
-/* line 5, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
-nav .logo {
-  font-size: 5vw;
+/* line 12, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav {
+  flex-grow: 1;
 }
 
-/* line 8, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
-nav a {
-  text-align: right;
-  font-size: 5vw;
-  right: 0;
+/* line 15, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav ul li {
+  position: relative;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+/* line 26, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: white;
+  font-size: 1vw;
+  font-family: 'Amaranth', sans-serif;
+}
+
+/* line 32, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav ul li a:hover {
+  color: #C7AF81;
+}
+
+/* line 40, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav:last-child .user-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+/* line 45, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav:last-child .user-info p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: 'Amaranth', sans-serif;
+}
+
+/* line 51, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav:last-child .user-info a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1vw;
+  font-family: 'Amaranth', sans-serif;
+}
+
+/* line 57, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav:last-child .user-info a:hover {
+  color: #C7AF81;
+}
+
+/* line 61, ../../../../../xampp/htdocs/Kulture/public/scss/style.scss */
+.navbar nav:last-child .user-info a:not(:last-child) {
+  margin-right: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

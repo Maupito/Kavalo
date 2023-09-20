@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Ma Page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
 </head>
 <body>
-
-<nav>
-    <span>logo</span>
-    <a href="#">Inscription</a>
-    <a href="#">Connexion</a>
-</nav>
-
-<!-- Le contenu de votre page irait ici -->
-
+    <div class="navbar">
+        <a href="<?= base_url('') ?>">
+</a>
+        <nav>
+            <ul>
+                <li><a href="<?= base_url('') ?>">Accueil</a></li>
+                <div class="user-info">
+                        <a href="<?= base_url('login') ?>">Connexion</a>
+                        <a href="<?= base_url('register') ?>">Inscription</a>
+                </div>
+            </ul>
+        </nav>
+    </div>
 </body>
-</html>
