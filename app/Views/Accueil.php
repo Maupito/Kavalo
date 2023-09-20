@@ -8,8 +8,8 @@
 <body>
 
 <nav>
-    <a href="#">Inscription</a>
-    <a href="#">Connexion</a>
+    <a href="<?= base_url('register') ?>">Inscription</a>
+    <a href="<?= base_url('login') ?>">Connexion</a>
 </nav>
 
 </body>
