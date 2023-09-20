@@ -8,4 +8,3 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->match(['get', 'post'],'login', 'LogController::login');
 $routes->match(['get', 'post'],'register', 'LogController::register');
-$routes->get('logout', 'LogController::logout');
