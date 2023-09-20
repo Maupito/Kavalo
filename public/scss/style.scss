@@ -1,24 +1,16 @@
-body {
-    background-color: white;
-}
-
-/* Style de base pour la navbar */
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-}
-
-/* Style pour les éléments de la navbar */
-.navbar a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: right; /* Alignement du texte à droite */
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Style pour le logo */
-.navbar #logo {
-    float: left;
-}
+nav {
+    position: sticky;
+    display: flex;
+  
+    .logo {
+      font-size: 5vw; // Taille du texte du logo
+    }
+      a {
+        text-align: right;
+        font-size: 5vw;
+        right: 0;
+        text-decoration: none;
+        color: white; // Couleur du texte des liens
+      }
+    }
+  
